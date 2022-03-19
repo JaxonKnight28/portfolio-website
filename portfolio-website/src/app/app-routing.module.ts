@@ -4,8 +4,7 @@ import { HomepageComponent } from './components/homepage/homepage.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
-  { path: 'home', component: HomepageComponent },
+  { path: '', redirectTo: 'projects', pathMatch: 'full' },
   { path: 'projects', component: ProjectsComponent },
 ];
 

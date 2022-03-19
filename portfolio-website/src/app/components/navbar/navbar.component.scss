@@ -1,0 +1,21 @@
+.header {
+    width: auto;
+    background-color: #2044E0;
+    padding: 20px;
+    display: flex;
+    #title {
+        text-align: center;
+    }
+    #logo
+    {
+        height: 100px;
+    }
+    .left {
+        flex-grow: 3;
+    }
+    .right {
+        display: flex;
+        flex-grow: 1;
+        align-items: center;
+    }
+}
