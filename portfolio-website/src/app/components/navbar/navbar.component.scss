@@ -1,6 +1,6 @@
 .header {
     width: auto;
-    background-color: #2044E0;
+    //background-color: #2044E0;
     padding: 20px;
     display: flex;
     #title {
@@ -11,11 +11,14 @@
         height: 100px;
     }
     .left {
-        flex-grow: 3;
-    }
-    .right {
         display: flex;
-        flex-grow: 1;
         align-items: center;
+        flex-grow: 1;
+        .text {
+            font-family: Roboto;
+            font-size: 50px;
+            margin-left: 10px;
+            color: #83AEDB;
+        }
     }
 }

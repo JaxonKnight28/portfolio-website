@@ -1,4 +1,5 @@
 #container {
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
     .item {
@@ -9,7 +10,7 @@
         width: 250px;
         height: 250px;
         border-radius: 5px;
-        background-color: #2DB6FD; // #1C297A
+        background-color: #83AEDB; // #1C297A
         text-align: center;
 
         .title {
