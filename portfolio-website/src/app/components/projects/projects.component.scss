@@ -8,18 +8,20 @@
     text-decoration: none;
     font-family: Roboto;
     }
+    .item:hover {
+        background: #688aad;    
+    }
     .item {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        //margin: 10px;
         width: 250px;
         height: 250px;
         border-radius: 5px;
         background-color: #83AEDB; // #1C297A
         text-align: center;
-
+        transition: all .5s;
         .title {
             font-size: 25px;
             font-family: Roboto;
@@ -28,20 +30,5 @@
         .points {
             font-family: Roboto;
         }
-        
     }
-
-    // a {
-    //     display: flex;
-    //     justify-content: center;
-    //     align-items: center;
-    //     font-family: Roboto;
-    //     text-decoration: none;
-    //     color: black;
-    //     margin-bottom: 5px;
-    //     img {
-    //         padding-left: 3px;
-    //         width: 20px;
-    //     }
-    // }
-}
+ }    
